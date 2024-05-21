@@ -1,0 +1,74 @@
+:root {
+  --bs-font-spartan-bold: 'League-Spartan-Bold', sans-serif, system-ui,
+  -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans',
+  'Liberation Sans', Arial, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
+}
+
+*:focus {
+  outline: 0;
+  outline: none;
+}
+
+@font-face {
+  font-family: 'League-Spartan-Bold';
+  src: local('League-Spartan-Bold'),
+      url('/LeagueSpartan-Bold.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-spartan-bold) !important;
+  font-weight: normal;
+}
+
+.badge {
+  font-size: 1rem;
+}
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 5px;}
+
+.fs-xxl {
+  font-size: 10rem;
+}
+
+.fs-lg {
+  font-size: 5rem;
+}
+
+.fs-md {
+  font-size: 3rem;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.height-md {
+  height: 200px;
+}
+
+.height-sm {
+  height: 100px;
+}
+
+.bottom-n-0 {
+  bottom: -90px;
+}
+
+
+@media (max-width: 576px) { 
+  .fs-xxl {
+    font-size: 5rem;
+  }
+  .fs-lg {
+    font-size: 2.5rem;
+  }
+  .fs-md {
+    font-size: 1.5rem;
+  }
+  .height-sm {
+    height: 150px;
+  }
+}
+
